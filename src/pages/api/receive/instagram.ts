@@ -10,12 +10,10 @@ import { get_db } from "@/utils/mongo";
 import { ObjectId } from "mongodb";
 import { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
-import { convert_mp3_to } from "salesbot_audio";
 import get_or_post from "@/utils/get_or_post";
 import query_chatbot from "@/utils/query_chatbot";
 import { get_latest_balance_snapshot, query_total_amount_deposited_since, query_total_messages_for_chat_since, query_total_replies_for_chat_since } from "@/utils/balances";
 import { execute_mongo_post } from "../[collection]";
-import send_voice_via_telegram_nonbot from "@/utils/send_voice_via_telegram_nonbot";
 
 const { NEXT_PUBLIC_API_PATH, DEFAULT_SALESBOT, ENABLE_PAYMENT: ENABLE_PAYMENT_STRING } = process.env;
 const ENABLE_PAYMENT = ENABLE_PAYMENT_STRING == "true";
@@ -90,15 +88,6 @@ For any questions or suggestions, feel free to contact our team at info@chatvip.
 
     const send_as_voice = Math.random() < parseFloat(salesbot.settings.send_as_voice_probability);
     if (send_as_voice) {
-        await send_voice_via_telegram_nonbot({
-            platform_chat_id: user_id + "",
-            messenger: instagram,
-            voice_id: salesbot.settings.voice_id,
-            voice_platform: salesbot.settings.voice_platform,
-            voice_platform_api_key: salesbot.settings.elevenlabs_api_key,
-            text: text_response,
-            voice_speed: parseFloat(salesbot.settings.voice_speed)
-        })
     } else {
         await instagram.send_text(text_response, user_id);
     }
