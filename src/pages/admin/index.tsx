@@ -59,10 +59,10 @@ export default function Page() {
                     </Link>)
             }
         </div>
-        {/* <Button color="success" disabled={is_loading} onClick={create_bot}>
+        <Button color="success" disabled={is_loading} onClick={create_bot}>
             {is_loading ? <Loading /> : <FaPlus className="inline-block mr-1" />}
             Create Bot
-        </Button> */}
+        </Button>
 
     </div>
 }

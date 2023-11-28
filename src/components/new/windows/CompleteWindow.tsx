@@ -14,7 +14,7 @@ const CompleteWindow = ({ is_complete }: { is_complete: boolean }) => {
                     ? <>
                         <div className="text-2xl font-bold mb-4">🎉 Setup Complete!</div>
                         <div className="text-lg">Your AI is now training. This will take a few minutes.</div>
-                        <Button className="mt-4" onClick={() => router.push("/new/charts")}>Go to Dashboard</Button>
+                        <Button className="mt-4" onClick={() => router.push("/charts")}>Go to Dashboard</Button>
                     </>
                     : <>
                         <div className="text-2xl font-bold mb-4">⏳ Saving ...</div>
