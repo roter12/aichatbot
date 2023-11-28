@@ -1,0 +1,483 @@
+[
+    {
+        "id": "name",
+        "question": "Let's get started! What would you like to call your companion?",
+        "type": "string",
+        "placeholder": "Penelope"
+    },
+    {
+        "id": "age",
+        "question": "How old are they?",
+        "type": "number",
+        "placeholder": "20"
+    },
+    {
+        "id": "gender_identity",
+        "question": "Which gender do they identify with?",
+        "type": "select",
+        "options": [
+            "Female",
+            "Male",
+            "Non-binary",
+            "Other"
+        ]
+    },
+    {
+        "id": "sexual_orientation",
+        "question": "What is their sexual orientation?",
+        "type": "select",
+        "options": [
+            "Straight",
+            "Gay",
+            "Bi-sexual",
+            "Pansexual",
+            "Other"
+        ]
+    },
+    {
+        "id": "language_fluency",
+        "question": "Which languages do they speak?",
+        "type": "open_ended",
+        "placeholder": "English & Spanish"
+    },
+    {
+        "id": "social_preference",
+        "question": "How would you describe their social personality?",
+        "type": "select",
+        "options": [
+            "Extraverted",
+            "Introverted",
+            "Ambivert"
+        ]
+    },
+    {
+        "id": "binary_questions_group1",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "compassionate_empathetic_indifferent",
+                "text": "Compassionate & empathetic or indifferent",
+                "options": [
+                    "Compassionate & empathetic",
+                    "Indifferent"
+                ]
+            },
+            {
+                "id": "confident_insecure",
+                "text": "Confident or insecure",
+                "options": [
+                    "Confident",
+                    "Insecure"
+                ]
+            },
+            {
+                "id": "ambitious_content",
+                "text": "Ambitious or content",
+                "options": [
+                    "Ambitious",
+                    "Content"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group2",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "creative_logical",
+                "text": "Creative or logical",
+                "options": [
+                    "Creative",
+                    "Logical"
+                ]
+            },
+            {
+                "id": "intuitive_analytical",
+                "text": "Intuitive or analytical",
+                "options": [
+                    "Intuitive",
+                    "Analytical"
+                ]
+            },
+            {
+                "id": "optimistic_pessimistic",
+                "text": "Optimistic or pessimistic",
+                "options": [
+                    "Optimistic",
+                    "Pessimistic"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group3",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "patient_impatient",
+                "text": "Patient or impatient",
+                "options": [
+                    "Patient",
+                    "Impatient"
+                ]
+            },
+            {
+                "id": "assertive_diplomatic",
+                "text": "Assertive or diplomatic",
+                "options": [
+                    "Assertive",
+                    "Diplomatic"
+                ]
+            },
+            {
+                "id": "enthusiastic_apathetic",
+                "text": "Enthusiastic or apathetic",
+                "options": [
+                    "Enthusiastic",
+                    "Apathetic"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group4",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "adventurous_risk_averse",
+                "text": "Adventurous or risk-averse",
+                "options": [
+                    "Adventurous",
+                    "Risk-averse"
+                ]
+            },
+            {
+                "id": "open_minded_inflexible",
+                "text": "Open-minded or inflexible",
+                "options": [
+                    "Open-minded",
+                    "Inflexible"
+                ]
+            },
+            {
+                "id": "warm_bubbly_reserved",
+                "text": "Warm & bubbly or reserved",
+                "options": [
+                    "Warm & bubbly",
+                    "Reserved"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group5",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "loyal_disloyal",
+                "text": "Loyal or disloyal",
+                "options": [
+                    "Loyal",
+                    "Disloyal"
+                ]
+            },
+            {
+                "id": "responsible_carefree",
+                "text": "Responsible or carefree",
+                "options": [
+                    "Responsible",
+                    "Carefree"
+                ]
+            },
+            {
+                "id": "cooperative_competitive",
+                "text": "Cooperative or competitive",
+                "options": [
+                    "Cooperative",
+                    "Competitive"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group6",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "honest_deceitful",
+                "text": "Honest or deceitful",
+                "options": [
+                    "Honest",
+                    "Deceitful"
+                ]
+            },
+            {
+                "id": "practical_idealistic",
+                "text": "Practical or idealistic",
+                "options": [
+                    "Practical",
+                    "Idealistic"
+                ]
+            },
+            {
+                "id": "humble_arrogant",
+                "text": "Humble or arrogant",
+                "options": [
+                    "Humble",
+                    "Arrogant"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group7",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "grateful_entitled",
+                "text": "Grateful or entitled",
+                "options": [
+                    "Grateful",
+                    "Entitled"
+                ]
+            },
+            {
+                "id": "humorous_stoic",
+                "text": "Humorous or stoic",
+                "options": [
+                    "Humorous",
+                    "Stoic"
+                ]
+            },
+            {
+                "id": "flirtatious_serious",
+                "text": "Flirtatious or serious",
+                "options": [
+                    "Flirtatious",
+                    "Serious"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group8",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "adaptable_rigid",
+                "text": "Adaptable or rigid",
+                "options": [
+                    "Adaptable",
+                    "Rigid"
+                ]
+            },
+            {
+                "id": "resilient_fragile",
+                "text": "Resilient or fragile",
+                "options": [
+                    "Resilient",
+                    "Fragile"
+                ]
+            },
+            {
+                "id": "sacrificial_self_centered",
+                "text": "Sacrificial or self-centered",
+                "options": [
+                    "Sacrificial",
+                    "Self-centered"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group9",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "tolerant_judgmental",
+                "text": "Tolerant or judgmental",
+                "options": [
+                    "Tolerant",
+                    "Judgmental"
+                ]
+            },
+            {
+                "id": "curious_indifferent",
+                "text": "Curious or indifferent",
+                "options": [
+                    "Curious",
+                    "Indifferent"
+                ]
+            },
+            {
+                "id": "risk_taker_risk_averse",
+                "text": "Risk-taker or risk-averse",
+                "options": [
+                    "Risk-taker",
+                    "Risk-averse"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group10",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "resolute_indecisive",
+                "text": "Resolute or indecisive",
+                "options": [
+                    "Resolute",
+                    "Indecisive"
+                ]
+            },
+            {
+                "id": "gracious_revengeful",
+                "text": "Gracious or revengeful",
+                "options": [
+                    "Gracious",
+                    "Revengeful"
+                ]
+            },
+            {
+                "id": "liberal_traditional",
+                "text": "Liberal or traditional",
+                "options": [
+                    "Liberal",
+                    "Traditional"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group11",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "generous_conservative",
+                "text": "Generous or conservative",
+                "options": [
+                    "Generous",
+                    "Conservative"
+                ]
+            },
+            {
+                "id": "calm_anxious",
+                "text": "Calm or anxious",
+                "options": [
+                    "Calm",
+                    "Anxious"
+                ]
+            },
+            {
+                "id": "blunt_diplomatic",
+                "text": "Blunt or diplomatic",
+                "options": [
+                    "Blunt",
+                    "Diplomatic"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "binary_questions_group12",
+        "question": "Select the option that best describes their communication style and emotional traits (skip any of not applicable)",
+        "type": "binary_group",
+        "questions": [
+            {
+                "id": "spontaneous_methodical",
+                "text": "Spontaneous or methodical",
+                "options": [
+                    "Spontaneous",
+                    "Methodical"
+                ]
+            },
+            {
+                "id": "opinionated_argumentative_conciliatory",
+                "text": "Opinionated & Argumentative or conciliatory",
+                "options": [
+                    "Opinionated & Argumentative",
+                    "Conciliatory"
+                ]
+            }
+        ],
+        "skippable": true
+    },
+    {
+        "id": "character",
+        "question": "Select the qualities you would like your companion to exhibit (skip if not applicable)",
+        "type": "multiple_choice",
+        "options": [
+            "Stable & emotionally intelligent",
+            "Passionate & affectionate",
+            "Clingy & needy",
+            "Self-reliant & independent",
+            "Codependent",
+            "Controlling",
+            "Emotionally distant",
+            "Seeks reassurance & validation",
+            "Enjoys teasing & has a playful sense of humor",
+            "Other"
+        ]
+    },
+    {
+        "id": "topics_of_interest",
+        "question": "What topics pique their interest?",
+        "type": "open_ended",
+        "placeholder": "International relations, modern art, chess, sports, the person they're speaking to"
+    },
+    {
+        "id": "sense_of_humor",
+        "question": "How would you describe their sense of humor and the types of jokes they enjoy?",
+        "type": "multiple_choice",
+        "options": [
+            "Dark humor",
+            "Blue humor",
+            "Politically incorrect humor",
+            "Parody",
+            "Sarcasm",
+            "Puns",
+            "Other",
+            "None of the Above"
+        ]
+    },
+    {
+        "id": "additional_details",
+        "question": "List out any other details that may be important to your companion’s personality and behavior:",
+        "type": "open_ended",
+        "placeholder": "Preferences, spirituality, Myers Briggs personality type, neurodivergence, political affiliation, attachment style, where they are from"
+    },
+    {
+        "id": "voice_or_text",
+        "question": "Would you like your companion to communicate with you using text or voice message?",
+        "type": "select",
+        "options": [
+            "Text",
+            "Voice",
+            "Both"
+        ]
+    }
+]

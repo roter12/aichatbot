@@ -1,0 +1,47 @@
+[
+    {
+        "id": "industry",
+        "question": "Which industry are you in?",
+        "type": "select",
+        "options": [
+            "Business Coach",
+            "Motivational Speaker",
+            "Lifestyle Influencer",
+            "Model",
+            "Event Promotion",
+            "Hospitality",
+            "Food",
+            "Fashion",
+            "Recruitment",
+            "Sales",
+            "Consulting",
+            "Nonprofit",
+            "Market Research",
+            "Real Estate",
+            "Other"
+        ]
+    },
+    {
+        "id": "usecase",
+        "question": "What do you want to use the platform for?",
+        "type": "open_ended",
+        "placeholder": "I want to use the platform to..."
+    },
+    {
+        "id": "platform",
+        "question": "Which platform do you want to use?",
+        "type": "select",
+        "options": [
+            "Instagram",
+            "Telegram",
+            "Other"
+        ]
+    },
+    {
+        "id": "socials",
+        "question": "What are your social media handles? (if applicable)",
+        "type": "open_ended",
+        "placeholder": "My social media handles are...",
+        "skippable": true
+    }
+]

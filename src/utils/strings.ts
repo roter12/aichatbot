@@ -1,0 +1,3 @@
+export const MESSAGE_WHITELISTED_PART1 = `Hey babe 😉 lucky you, it's your turn to speak to me now! Just type /deposit to add credits and start speaking to me 💋`
+export const MESSAGE_WHITELISTED_PART2 = `I can't wait for us to get to know each other. But hurry now… there are other people waiting to speak to me.  You can get messages at any moment I'm available, so be ready for them`
+export const MESSAGE_DEPOSIT = `Pricing: Your account is billed £1/minute of audio responses from me. Let me know when you are ready to speak to me! 😘`
